@@ -2,6 +2,9 @@ const norwegian = {};
 const english = {};
 
 function showMessage(language: object, message: object) {
+  if (language == english) {
+    return "An error has occurred";
+  }
   return "En feil har inntruffet";
 }
 
