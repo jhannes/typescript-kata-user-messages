@@ -43,7 +43,7 @@ type Message =
 1. `npm init`
 2. `npx tsc --init`
 3. `npm install --save-dev typescript jest ts-jest @types/jest prettier`
-4. `npm set-script test jest`
+4. `npm set-script test "jest --watch"`
 5. `npm set-script check:typescript "tsc --noEmit"`
 6. `npm set-script check:prettier "prettier --check **/*.[jt]s"`
 7. `npm set-script check "npm run check:prettier && npm run check:typescript"`
